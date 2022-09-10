@@ -7,7 +7,7 @@ from GD import creat_app
 config_name=os.getenv("flask_config","development")
 application=creat_app(config_name)
 
-
+#demo
 
 if __name__=="__main__":
     application.run(debug=True,port=2000)
